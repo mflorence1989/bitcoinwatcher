@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180126011240) do
+ActiveRecord::Schema.define(version: 20180126175757) do
 
   create_table "blogs", force: :cascade do |t|
     t.string "title"
@@ -19,7 +19,9 @@ ActiveRecord::Schema.define(version: 20180126011240) do
     t.datetime "updated_at", null: false
     t.string "slug"
     t.integer "status"
+    t.integer "topic_id"
     t.index ["slug"], name: "index_blogs_on_slug", unique: true
+    t.index ["topic_id"], name: "index_blogs_on_topic_id"
   end
 
   create_table "friendly_id_slugs", force: :cascade do |t|
@@ -32,6 +34,12 @@ ActiveRecord::Schema.define(version: 20180126011240) do
     t.index ["slug", "sluggable_type"], name: "index_friendly_id_slugs_on_slug_and_sluggable_type"
     t.index ["sluggable_id"], name: "index_friendly_id_slugs_on_sluggable_id"
     t.index ["sluggable_type"], name: "index_friendly_id_slugs_on_sluggable_type"
+  end
+
+  create_table "topics", force: :cascade do |t|
+    t.string "title"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
