@@ -57,4 +57,4 @@ gem 'friendly_id', '~> 5.2', '>= 5.2.3'
 gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'jquery-rails'
-gem 'crypto_view_tool', git: "https://github.com/mflorence1989/crypto_view_tool"
+gem 'crypto_view_tool'
