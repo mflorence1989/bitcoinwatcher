@@ -8,16 +8,38 @@ a,
 a:focus,
 a:hover {
   color: #fff;
+  font-family: 'Comfortaa';
 }
 
 /* Custom default button */
 .btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: .05rem solid #fff;
+{
+  padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Limelight';
+}
+.btn-primary{
+  color: black;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.btn-danger {
+  color: black;
 }
 
 
@@ -28,7 +50,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+
 }
 body {
   color: #fff;
@@ -69,13 +91,17 @@ body {
 }
 
 .masthead-brand {
-  margin-bottom: 0;
+font-family: 'Fugaz One';
+font-weight: bolder;
+font-size: 40px;
+color: red;
+
 }
 
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: bold;
-  color: rgba(255,255,255,.5);
+  color: white;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
@@ -122,7 +148,7 @@ body {
  */
 
 .mastfoot {
-  color: rgba(255,255,255,.5);
+  color: red;
 }
 
 
@@ -158,4 +184,107 @@ body {
   .cover-container {
     width: 55rem;
   }
+}
+.card-block{
+  color: black;
+  font-size: 8px;
+  max-width: 100%
+
+}
+.card {
+  max-height: 50%;
+  max-width: 75%;
+  margin: auto;
+}
+.card-header{
+  background-color: black;
+  font-family: 'Comfortaa';
+  font-size: 20px;
+}
+.card-footer{
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: 'Comfortaa';
+}
+.cover-heading{
+  font-weight: bolder;
+  color:red;
+  font-size: 50px;
+  font-family: 'Fugaz One';
+
+}
+
+.field{
+
+}
+#background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: image-url('mariog.png') no-repeat;
+  background-size: cover;
+}
+/* table style */
+
+.gbp-price{
+  text-align: center;
+  color: blue;
+  font-size: 15px;
+  font-family: 'Limelight';
+  margin-top: 10px;
+}
+
+.usd-price{
+  text-align: center;
+  color: blue;
+  font-size: 15px;
+  font-family: 'Limelight';
+  margin-top: 10px;
+
+}
+
+.aud-price{
+  text-align: center;
+  color: blue;
+  font-size: 15px;
+  font-family: 'Limelight';
+  margin-top: 10px;
+
+}
+.whole > .card{
+max-width: 50%;
+max-height: 25%;
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+
+.prices{
+  text-align: center;
+  color:black;
+  font-family: 'Limelight';
+  font-size: 10px;
+  font-weight: bold;
+  max-width: 75%;
+  max-height: 50%;
+
+}
+
+
+.table {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 40px;
+
+
+
 }
