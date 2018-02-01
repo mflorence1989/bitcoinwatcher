@@ -24,6 +24,7 @@ a:hover {
     border: none;
     border-radius: 15px;
     font-family: 'Limelight';
+    margin-left: 150px;
 }
 .btn-primary{
   color: black;
@@ -149,6 +150,7 @@ color: red;
 
 .mastfoot {
   color: red;
+  margin-left: 20px;
 }
 
 
@@ -202,7 +204,6 @@ color: red;
   font-size: 20px;
 }
 .card-footer{
-  background-color: black;
   color: white;
   font-size: 15px;
   font-family: 'Comfortaa';
@@ -210,8 +211,9 @@ color: red;
 .cover-heading{
   font-weight: bolder;
   color:red;
-  font-size: 50px;
+  font-size: 80px;
   font-family: 'Fugaz One';
+  margin-left: 150px;
 
 }
 
@@ -284,8 +286,15 @@ margin-bottom: 100px;
   text-align: center;
   margin-top: 15px;
   margin-left: 40px;
-  
 
+}
 
-
+.regcard{
+  max-width: 100%;
+  margin-left: 400px;
+}
+.logincard{
+  max-width: 50%;
+  margin-left: 400px;
+  margin-bottom: 50px;
 }
