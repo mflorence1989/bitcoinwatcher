@@ -27,17 +27,18 @@ a:hover {
     margin-left: 150px;
 }
 .btn-primary{
-  color: black;
-  padding: 15px 25px;
-  font-size: 24px;
+  background-color: black;
+  padding: 10px 20px;
+  font-size: 15px;
   text-align: center;
   cursor: pointer;
   outline: none;
-  color: #fff;
-  background-color: #4CAF50;
+  color: white;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #999;
+  font-family: 'Limelight';
+
+
 }
 .btn-danger {
   color: black;
@@ -217,9 +218,7 @@ color: red;
 
 }
 
-.field{
 
-}
 #background {
   position: fixed;
   top: 50%;
@@ -235,6 +234,13 @@ color: red;
   background-size: cover;
 }
 /* table style */
+.table {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 40px;
+
+}
 
 .gbp-price{
   text-align: center;
@@ -261,13 +267,6 @@ color: red;
   margin-top: 10px;
 
 }
-.whole > .card{
-max-width: 50%;
-max-height: 25%;
-margin-top: 100px;
-margin-bottom: 100px;
-
-}
 
 .prices{
   text-align: center;
@@ -280,21 +279,31 @@ margin-bottom: 100px;
 
 }
 
-
-.table {
-  font-size: 15px;
-  text-align: center;
-  margin-top: 15px;
-  margin-left: 40px;
+.whole > .card{
+max-width: 50%;
+max-height: 25%;
+margin-top: 100px;
+margin-bottom: 100px;
 
 }
+
+
+
+/*login and reg style */
+
 
 .regcard{
   max-width: 100%;
   margin-left: 400px;
 }
+
 .logincard{
   max-width: 50%;
+  max-height: 100%;
   margin-left: 400px;
   margin-bottom: 50px;
+}
+.field {
+  font-size: 15px;
+  font-family: 'Limelight';
 }
