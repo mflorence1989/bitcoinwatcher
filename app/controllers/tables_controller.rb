@@ -1,5 +1,5 @@
 class TablesController < ApplicationController
-layout 'application'
+layout "application"
 
   def show
 

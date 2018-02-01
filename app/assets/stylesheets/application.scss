@@ -232,3 +232,32 @@ color: red;
   background: image-url('mariog.png') no-repeat;
   background-size: cover;
 }
+/* table style */
+
+.gbp-price{
+  text-align: center;
+  color: red;
+  font-size: 35px;
+  font-family: 'Limelight';
+}
+
+.usd-price{
+  text-align: center;
+  color: blue;
+  font-size: 35px;
+  font-family: 'Limelight';
+
+}
+
+.aud-price{
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  font-family: 'Limelight';
+
+}
+.whole{
+  max-width: 100%;
+  max-height: 100%;
+
+}
