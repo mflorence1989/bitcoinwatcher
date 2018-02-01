@@ -306,7 +306,7 @@ margin-bottom: 100px;
   border: none;
   border-radius: 15px;
   font-family: 'Limelight';
-  margin-right: 700px;
+
 
 
 
@@ -323,4 +323,26 @@ margin-bottom: 100px;
   border-radius: 15px;
   font-family: 'Limelight';
 
+}
+
+.row {
+  margin-bottom: 2px;
+  margin-top: 2px;
+  max-width: 100%;
+  border: none;
+  font-family: 'Limelight';
+  font-size: 10px;
+}
+.form-group > .btn-primary{
+  background-color: black;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Limelight';
+  margin-left: 100px;
 }
