@@ -236,28 +236,55 @@ color: red;
 
 .gbp-price{
   text-align: center;
-  color: red;
-  font-size: 35px;
+  color: blue;
+  font-size: 15px;
   font-family: 'Limelight';
+  margin-top: 10px;
 }
 
 .usd-price{
   text-align: center;
   color: blue;
-  font-size: 35px;
+  font-size: 15px;
   font-family: 'Limelight';
+  margin-top: 10px;
 
 }
 
 .aud-price{
   text-align: center;
-  color: black;
-  font-size: 35px;
+  color: blue;
+  font-size: 15px;
   font-family: 'Limelight';
+  margin-top: 10px;
 
 }
-.whole{
-  max-width: 100%;
-  max-height: 100%;
+.whole > .card{
+max-width: 50%;
+max-height: 25%;
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+
+.prices{
+  text-align: center;
+  color:black;
+  font-family: 'Limelight';
+  font-size: 10px;
+  font-weight: bold;
+  max-width: 75%;
+  max-height: 50%;
+
+}
+
+
+.table {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 40px;
+
+
 
 }
