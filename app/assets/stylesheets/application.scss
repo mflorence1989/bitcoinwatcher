@@ -26,20 +26,7 @@ a:hover {
     font-family: 'Limelight';
     margin-left: 150px;
 }
-.btn-primary{
-  background-color: black;
-  padding: 10px 20px;
-  font-size: 15px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: white;
-  border: none;
-  border-radius: 15px;
-  font-family: 'Limelight';
 
-
-}
 .btn-danger {
   color: black;
 }
@@ -306,4 +293,34 @@ margin-bottom: 100px;
 .field {
   font-size: 15px;
   font-family: 'Limelight';
+}
+
+.form-group > .btn-primary {
+  background-color: black;
+  padding: 10px 20px;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Limelight';
+  margin-right: 700px;
+
+
+
+}
+.actions > .btn-primary{
+  background-color: black;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Limelight';
+
 }
