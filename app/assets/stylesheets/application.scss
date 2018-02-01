@@ -26,20 +26,7 @@ a:hover {
     font-family: 'Limelight';
     margin-left: 150px;
 }
-.btn-primary{
-  background-color: black;
-  padding: 10px 20px;
-  font-size: 15px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: white;
-  border: none;
-  border-radius: 15px;
-  font-family: 'Limelight';
 
-
-}
 .btn-danger {
   color: black;
 }
@@ -194,7 +181,7 @@ color: red;
   max-width: 100%
 
 }
-.card {
+.card  {
   max-height: 50%;
   max-width: 75%;
   margin: auto;
@@ -203,6 +190,7 @@ color: red;
   background-color: black;
   font-family: 'Comfortaa';
   font-size: 20px;
+
 }
 .card-footer{
   color: white;
@@ -294,6 +282,10 @@ margin-bottom: 100px;
 
 .regcard{
   max-width: 100%;
+  max-height: 100%;
+  margin-left: 400px;
+  margin-bottom: 50px;
+
   margin-left: 400px;
 }
 
@@ -306,4 +298,97 @@ margin-bottom: 100px;
 .field {
   font-size: 15px;
   font-family: 'Limelight';
+}
+
+.form-group > .btn-primary {
+  background-color: black;
+  padding: 10px 20px;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Limelight';
+
+
+
+
+}
+.actions > .btn-primary{
+  background-color: black;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Limelight';
+
+}
+
+.row {
+  margin-bottom: 2px;
+  margin-top: 2px;
+  max-width: 100%;
+  border: none;
+  font-family: 'Limelight';
+  font-size: 10px;
+}
+.form-group > .btn-primary{
+  background-color: black;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Limelight';
+  margin-left: 100px;
+}
+
+.form-control{
+  max-height: 50%;
+  max-width: 100%;
+}
+
+.edit_user{
+
+  max-height: 25%;
+  max-width: 75%;
+
+}
+.editcard > .card{
+
+  max-height: 25%;
+  margin-top: 100px;
+
+}
+.editcard > .card-block{
+
+  margin-top: 100px;
+  max-width: 25%;
+  margin-left: 300px;
+
+}
+.form-group {
+  max-width: 50%;
+  max-height: 25%;
+}
+.tech-news {
+  color: black;
+  margin: 10px;
+}
+
+.tech-news > .card {
+  padding: 15px;
+}
+
+.tech-news a {
+  color: green;
 }

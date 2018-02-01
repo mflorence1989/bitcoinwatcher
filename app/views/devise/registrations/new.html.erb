@@ -11,7 +11,6 @@
           <%= devise_error_messages! %>
 
           <div class="row">
-
             <div class="col-md-6">
 
               <div class="form-group">
@@ -31,7 +30,7 @@
               <div class="form-group">
                 <%= f.label :password %>
                 <% if @minimum_password_length %>
-                <em>(<%= @minimum_password_length %> characters minimum)</em>
+                <% @minimum_password_length %>
                 <% end %><br />
                 <%= f.password_field :password, autocomplete: "off", class: 'form-control' %>
               </div>
@@ -43,10 +42,10 @@
 
             </div>
 
-            <div class="col-md-10"></div>
+
             <div class="col-md-2">
               <div class="form-group">
-                <%= f.submit "Sign up" %>
+                <%= f.submit "Sign up", class: 'btn btn-lg btn-primary' %>
               </div>
             </div>
           </div>
@@ -57,5 +56,5 @@
 
   </div>
   </div>
-  
+
 </div>
