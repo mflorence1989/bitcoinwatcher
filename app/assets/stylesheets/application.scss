@@ -281,6 +281,10 @@ margin-bottom: 100px;
 
 .regcard{
   max-width: 100%;
+  max-height: 100%;
+  margin-left: 400px;
+  margin-bottom: 50px;
+
   margin-left: 400px;
 }
 
@@ -345,4 +349,9 @@ margin-bottom: 100px;
   border-radius: 15px;
   font-family: 'Limelight';
   margin-left: 100px;
+}
+
+.form-control{
+  max-height: 50%;
+  max-width: 100%;
 }
