@@ -13,11 +13,15 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-def first_name
-  name.split.first
-end
+  validates_presence_of :name
 
-def last_name
-  name.split.last
-end
+  has_many :comments, dependent: :destroy
+
+  def first_name
+    self.name.split.first
+  end
+
+  def last_name
+    self.name.split.last
+  end
 end
