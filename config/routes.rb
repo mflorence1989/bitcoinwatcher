@@ -5,10 +5,9 @@ Rails.application.routes.draw do
 
   get 'about-me', to: 'pages#about'
   get 'contact', to: 'pages#contact'
-  get 'table', to: 'tables#show'
   get 'chart', to: 'charts#show'
   get 'news', to: 'pages#bitcoin_news'
-  get 'ticker', to: 'tickers#show'
+
   resources :blogs do
     member do
       get :toggle_status
