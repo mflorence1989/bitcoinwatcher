@@ -4,6 +4,7 @@ class PagesController < ApplicationController
   end
 
   def about
+    @page_title = "About CryptoNet"
   end
 
   def contact
@@ -11,5 +12,6 @@ class PagesController < ApplicationController
 
   def bitcoin_news
      @tweets = SocialTool.twitter_search
+     @page_title = "Live News"
   end
 end
