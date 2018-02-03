@@ -1,6 +1,5 @@
-
+<div class="canvas">
   <canvas id="Bitfinex" style="width: 600px; height: 240px;"></canvas>
-
 
 <script>
 var buf = {};
@@ -30,15 +29,15 @@ var chart = new Chart(ctx, {
         datasets: [{
             data: [],
             label: 'Buy',
-            borderColor: 'rgb(255, 99, 132)',
-            backgroundColor: 'rgba(255, 99, 132, 0.5)',
+            borderColor: 'rgb(83, 244, 65)',
+            backgroundColor: 'rgba(35, 99, 49)',
             fill: false,
             lineTension: 0
         }, {
             data: [],
             label: 'Sell',
-            borderColor: 'rgb(54, 162, 235)',
-            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+            borderColor: 'rgb(132, 19, 19)',
+            backgroundColor: 'rgba(132, 19, 19)',
             fill: false,
             lineTension: 0
         }]
@@ -69,3 +68,4 @@ var chart = new Chart(ctx, {
     }
 });
 </script>
+</div>

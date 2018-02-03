@@ -378,8 +378,8 @@ margin-bottom: 100px;
 
 }
 .form-group {
-  max-width: 50%;
-  max-height: 25%;
+  max-width: 100%;
+
 }
 .tech-news {
   color: black;
@@ -395,10 +395,14 @@ margin-bottom: 100px;
 }
 #Bitfinex{
   background-color: white;
+  
 
 }
 
 .app-nav span {
   margin-left: 15px;
   margin-right: 15px;
+}
+.nav-link.active  {
+  color: red;
 }
