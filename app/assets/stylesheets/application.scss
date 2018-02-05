@@ -82,15 +82,15 @@ body {
 
 .masthead-brand {
 font-family: 'Fugaz One';
-font-weight: bolder;
+
 font-size: 40px;
-color: red;
+color:#ef0707;
 
 }
 
 .nav-masthead .nav-link {
   padding: .25rem 0;
-  font-weight: bold;
+  font-family: 'Fugaz One';
   color: white;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
@@ -129,7 +129,8 @@ color: red;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
-  font-weight: bold;
+  font-family: 'Fugaz One';
+
 }
 
 
@@ -138,8 +139,9 @@ color: red;
  */
 
 .mastfoot {
-  color: red;
+  color:#ff0000;
   margin-left: 20px;
+  font-family: 'Fugaz One';
 }
 
 
@@ -199,8 +201,8 @@ color: red;
   font-family: 'Comfortaa';
 }
 .cover-heading{
-  font-weight: bolder;
-  color:red;
+
+  color:#ef0707;
   font-size: 80px;
   font-family: 'Fugaz One';
   margin-left: 150px;
@@ -395,7 +397,7 @@ margin-bottom: 100px;
 }
 #Bitfinex{
   background-color: white;
-  
+
 
 }
 
