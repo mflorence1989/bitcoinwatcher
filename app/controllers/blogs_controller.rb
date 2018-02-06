@@ -1,5 +1,6 @@
 class BlogsController < ApplicationController
   before_action :set_blog, only: [:show, :edit, :update, :destroy, :toggle_status]
+  before_action :set_sidebar_topics, except: [:update, :create, :destroy, :toggle_status]
   access all: [:show, :index], user: {except: [:destroy, :new, :create, :update, :edit]}, site_admin: :all
   layout "blog"
   # GET /blogs
@@ -92,8 +93,8 @@ end
     def blog_params
       params.require(:blog).permit(:title, :body, :topic_id)
     end
-    
+
     def set_sidebar_topics
     @side_bar_topics = Topic.with_blogs
-end
+  end
 end
