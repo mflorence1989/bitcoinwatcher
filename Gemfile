@@ -43,9 +43,7 @@ group :development, :test do
 
 end
 
-group :production do
 
-end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
@@ -67,9 +65,11 @@ gem 'crypto_view_tool'
 gem 'petergate', '~> 1.8', '>= 1.8.1'
 gem 'twitter', '~> 6.2'
 gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
-gem 'redis', '~>  3.3.5 '
+gem 'redis', '~> 4.0', '>= 4.0.1'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.3'
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+gem 'popper_js', '~> 1.11', '>= 1.11.1'
 ruby '2.4.1'
