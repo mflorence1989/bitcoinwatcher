@@ -12,22 +12,25 @@
 
 ActiveRecord::Schema.define(version: 20180202034325) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "blogs", force: :cascade do |t|
     t.string "title"
     t.text "body"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "slug"
-    t.integer "status"
-    t.integer "topic_id"
+    t.integer "status", default: 0
+    t.bigint "topic_id"
     t.index ["slug"], name: "index_blogs_on_slug", unique: true
     t.index ["topic_id"], name: "index_blogs_on_topic_id"
   end
 
   create_table "comments", force: :cascade do |t|
     t.text "content"
-    t.integer "user_id"
-    t.integer "blog_id"
+    t.bigint "user_id"
+    t.bigint "blog_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["blog_id"], name: "index_comments_on_blog_id"
@@ -71,4 +74,7 @@ ActiveRecord::Schema.define(version: 20180202034325) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "blogs", "topics"
+  add_foreign_key "comments", "blogs"
+  add_foreign_key "comments", "users"
 end
