@@ -59,7 +59,7 @@ Rails.application.configure do
 
   # Use a real queuing backend for Active Job (and separate queues per environment)
   # config.active_job.queue_adapter     = :resque
-  # config.active_job.queue_name_prefix = "bitcoin_#{Rails.env}"
+  # config.active_job.queue_name_prefix = "my_portfolio_#{Rails.env}"
   config.action_mailer.perform_caching = false
 
   # Ignore bad email addresses and do not raise email delivery errors.
@@ -79,7 +79,7 @@ Rails.application.configure do
   # Use a different logger for distributed setups.
   # require 'syslog/logger'
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
-
+  config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
   if ENV["RAILS_LOG_TO_STDOUT"].present?
     logger           = ActiveSupport::Logger.new(STDOUT)
     logger.formatter = config.log_formatter
@@ -88,6 +88,6 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-  config.action_cable.allowed_request_origins = ['https://cryptonett.herokuapp.com','https://cryptonett.herokuapp.com']
-  config.action_cable.url = "wss://cryptonett.herokuapp.com/cable"
+  config.action_cable.allowed_request_origins = ['https://cryptonett.herokuapp.com', 'https://cryptonett.herokuapp.com']
+config.action_cable.url = "wss://cryptonett.herokuapp.com/cable"
 end
